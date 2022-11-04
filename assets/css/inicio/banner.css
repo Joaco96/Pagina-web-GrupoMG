@@ -1,0 +1,76 @@
+.banner{
+    padding:0;
+    position:relative;
+    width:100%;
+    height:43rem;
+    padding: 190px 0 0 0;
+}
+
+.banner::after{
+    content:'';
+    background-image: url(../../img/servicios-para-empresas.jpg);
+    background-size: cover;
+    opacity: 45%;
+    top:5rem;
+    bottom:0;
+    left:0;
+    right: 0;
+    position: absolute;
+    z-index: -2;
+}
+
+.banner__logo{
+    width:17rem;
+    display: flex;
+}
+
+.banner__contenido{
+    width: 62%;
+    height: 70%;
+    margin: 0 0 0 8%;
+    padding:3%;
+    background-color: rgba(255, 255, 255, 0.7);
+} 
+
+.banner__superior{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner__segundo{
+    display:flex;
+    padding-top: 2%;
+}
+
+.banner__titulo1{
+    color: var(--azul1);
+    font-size: 6.25rem;
+}
+
+.banner__titulo2{
+    color: var(--gris2);
+    font-size: 4.68rem;
+    display:flex;
+    align-items: flex-end;
+    padding-left: 2%;
+}
+
+.banner__titulo3{
+    color: var(--azul3);
+    font-size: 7.5rem;
+}
+
+.banner__tercero{
+    padding-top: 4rem;
+    text-align: right;
+    font-weight:500;
+    text-shadow: 5px 5px 5px rgba(0,0,0,0.1),
+    5px 0px 5px rgba(0,0,0,0.05);
+}
+
+.banner__texto{
+    color: var(--gris2);
+    font-size: 2.18rem;
+    padding-top: 1.4%;
+}

@@ -1,0 +1,23 @@
+.trabajos{
+    background-color: rgba(228, 228, 228, 0.7);
+    padding-bottom: 3rem;
+}
+
+.trabajos__primero{
+    display:flex;
+    padding-top:3rem;
+    justify-content: center;
+}
+
+.trabajos__titulo1{
+    color: var(--gris2);
+    font-size: 3.2rem;
+    padding-right:1rem;
+    padding-bottom: 0%;
+}
+
+.trabajos__titulo2{
+    color: var(--azul3);
+    font-size: 3.2rem;
+    padding-bottom: 0%;
+}

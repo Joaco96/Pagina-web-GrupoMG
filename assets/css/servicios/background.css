@@ -1,0 +1,29 @@
+.background{
+    padding:0;
+    position:relative;
+    height:40rem;
+    width:100%;
+}
+
+.background::after{
+    content:'';
+    background-image: url(../../img/Background3.jpg);
+    background-size: cover;
+    background-position: center;
+    top:5rem;
+    bottom:0;
+    left:0;
+    right: 0;
+    position: absolute;
+    z-index: -2;
+}
+
+.background__superior{
+    padding: 30rem 0 0 18rem;
+}
+
+.background__titulo{
+    font-size: 7rem;
+    font-weight: 600;
+    padding: 0;
+}

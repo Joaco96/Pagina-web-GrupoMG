@@ -1,0 +1,55 @@
+.head__wp{
+    position: fixed;
+    z-index: 10;
+    width:75px;
+    top: calc(100vh - 100px);
+    left: calc(100vw - 110px);
+}
+
+.head__wp:hover{
+    transform: scale(1.06);
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.head{
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 6;
+    background-color: white;
+    position: fixed;
+    box-shadow: 0 1px 10px #9b9b9b;
+}
+
+.head__logo {
+    width: 5rem;
+    padding: 0.5rem 0 0.5rem 1.5rem;
+}
+
+.head__menu{
+    width: 40%;
+}
+
+.head__lista{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height:5rem;
+    align-items: center;
+}
+
+.head__item{
+    font-family: var(--inter);
+    font-weight:500;
+    font-size: 1.4rem;
+    color: var(--azul2);
+}
+
+.head__item:hover {
+    color: var(--azul1);
+    transform: scale(1.06);
+    transition: 0.4s;
+}

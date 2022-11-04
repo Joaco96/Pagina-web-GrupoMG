@@ -1,0 +1,38 @@
+.mision{
+    padding: 7rem 0 0 0;
+    display:flex;
+
+}
+
+.mision__img{
+    padding-right:2rem;
+    width:50%;
+}
+
+.mision__contenido{
+    padding-left:6rem;
+}
+
+.mision__primero{
+    display:flex;
+    padding-top:3.5rem;
+}
+
+.mision__titulo1{
+    color: var(--gris2);
+    font-size: 3.2rem;
+    padding-right:1rem;
+}
+
+.mision__titulo2{
+    color: var(--azul3);
+    font-size: 3.2rem;
+}
+
+.mision__texto{
+    width:33rem;
+    color: var(--gris2);
+    font-size: 2rem;
+    line-height: 3rem;
+    padding-top:2rem;
+}
