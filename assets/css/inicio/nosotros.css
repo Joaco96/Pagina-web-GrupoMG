@@ -64,6 +64,8 @@
 
     .nosotros__boton{
         font-size: 1rem;
+        padding-top:0.7rem;
+        padding-bottom:0.7rem;
     }
 
 }
@@ -71,6 +73,7 @@
 @media screen and (max-width:1250px) {
     .nosotros__titulo1{
         font-size: 2rem;
+        padding-right:0.4rem;
     }
     
     .nosotros__titulo2{
@@ -130,6 +133,45 @@
     }
 }
 
-@media screen and (max-width:650px) {
+
+@media screen and (max-width:480px) {
+    .nosotros__texto{
+        font-size: 1rem;
+        line-height: 1.6rem;
+        width:85%;
+    }
     
+    .nosotros__titulo1{
+        font-size: 1.7rem;
+        padding-right:0.4rem;
+    }
+        
+    .nosotros__titulo2{
+        font-size: 1.7rem;
+    }
+
+    .nosotros__boton{
+        width:75%;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .nosotros__texto{
+        font-size: 0.8rem;
+        line-height: 1.4rem;
+    }
+
+    .nosotros__titulo1{
+        font-size: 1.5rem;
+        padding-right:0.4rem;
+    }
+    
+    .nosotros__titulo2{
+        font-size: 1.5rem;
+    }
+
+    .nosotros__boton{
+        font-size: 0.8rem;
+        width:70%;
+    }
 }

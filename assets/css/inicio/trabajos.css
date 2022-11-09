@@ -24,7 +24,7 @@
     padding-bottom: 0%;
 }
 
-/* estilos de materialze para el carousel*/
+/* Estilos de Materialze para el Carousel */
 
 .carousel .carousel-item{
     display: flex;
@@ -70,5 +70,50 @@
     .trabajos{
         padding-bottom: 3rem;
         padding-top: 1rem;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .carousel{
+        height: 250px;
+        align-items: center;
+    }
+    
+    .carousel .carousel-item{
+        padding-bottom: 1rem;
+        width: 200px;
+        height: 150px;
+    }
+    .trabajos{
+        padding-bottom: 3rem;
+        padding-top: 1rem;
+    }
+    .trabajos__primero{
+        padding-bottom: 0;
+    }
+
+    .indicators{
+        padding-top: 1rem;
+    }
+    .carousel .indicators .indicator-item{
+        margin:0 8px;
+    }
+    .trabajos__titulo1{
+        font-size: 1.7rem;
+        padding-right:0.4rem;
+    }
+    
+    .trabajos__titulo2{
+        font-size: 1.7rem;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .trabajos__titulo1{
+        font-size: 1.5rem;
+    }
+    
+    .trabajos__titulo2{
+        font-size: 1.5rem;
     }
 }
