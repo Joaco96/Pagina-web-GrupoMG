@@ -1,5 +1,4 @@
 .servicios{
-    padding-top: 4%;
     padding-bottom: 4%;
 }
 
@@ -7,6 +6,7 @@
     display: flex;
 	flex-wrap: wrap;
     justify-content:space-around;
+
 }
 
 .servicios__titulo{
@@ -14,7 +14,7 @@
 }
 
 .servicio{
-    height: 13rem;
+    height: 8rem;
 	background-color: #FFF;
     border-radius: 15px;
 	text-align: center;
@@ -39,7 +39,7 @@
 }
 
 .servicio__img{
-    width:25%;
+    width:20%;
     padding-bottom: 0.5rem;
     opacity:80%;
 }
@@ -49,8 +49,8 @@
 }
 
 .servicio__titulo{
-    font-weight:500;
-    font-size: 2.3rem;
+    font-weight:400;
+    font-size: 1.3rem;
     padding-bottom: 0.5rem;
     line-height: 2.7rem;
     color:var(--gris2);

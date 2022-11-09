@@ -1,7 +1,7 @@
 .background{
     padding:0;
     position:relative;
-    height:40rem;
+    height:35rem;
     width:100%;
 }
 
@@ -10,7 +10,7 @@
     background-image: url(../../img/Background3.jpg);
     background-size: cover;
     background-position: center;
-    top:5rem;
+    top:4rem;
     bottom:0;
     left:0;
     right: 0;
@@ -19,11 +19,11 @@
 }
 
 .background__superior{
-    padding: 30rem 0 0 18rem;
+    padding: 23rem 0 0 22rem;
 }
 
 .background__titulo{
-    font-size: 7rem;
-    font-weight: 600;
+    font-size: 6rem;
+    font-weight: 500;
     padding: 0;
 }
