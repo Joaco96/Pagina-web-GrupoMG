@@ -115,9 +115,10 @@
 	display: block;
 	text-decoration: none;
 	padding: 20px;
-	color: #c7c7c7;
+	color: #ffffff;
 	border-left: 5px solid transparent;
 	transition: all 400ms ease;
+    border-bottom: 1px solid;
 }
 
 .head__cont-menu nav a:hover{
@@ -150,14 +151,20 @@
     }
 
     .head__logo {
-        padding: 0.5rem 0 0.5rem 38.3vw;
+        padding: 0.5rem 0 0.5rem 36vw;
     }
 
     .head__wp{
-        position: fixed;
-        z-index: 10;
         width:60px;
         top: calc(100vh - 70px);
         left: calc(100vw - 70px);
+    }
+}
+
+@media screen and (max-width:768px) {
+    .head__wp{
+        width:50px;
+        top: calc(100vh - 60px);
+        left: calc(100vw - 60px);
     }
 }

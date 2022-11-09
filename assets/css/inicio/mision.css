@@ -57,10 +57,12 @@
 
     .mision__titulo1{
         font-size: 2rem;
+        padding-right:0.4rem;
     }
     
     .mision__titulo2{
         font-size: 2rem;
+        padding-right:0.4rem;
     }
 
 }
@@ -104,5 +106,43 @@
     }
     .mision__texto{
         text-align: end;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .mision{
+        padding-top: 2.7rem;
+        padding-bottom: 2.7rem;
+    }
+
+    .mision__texto{
+        font-size: 1rem;
+        line-height: 1.6rem;
+        width:85%;
+    }
+
+    .mision__titulo1{
+        font-size: 1.7rem;
+        padding-right:0.4rem;
+    }
+    
+    .mision__titulo2{
+        font-size: 1.7rem;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .mision__texto{
+        font-size: 0.8rem;
+        line-height: 1.4rem;
+    }
+
+    .mision__titulo1{
+        font-size: 1.5rem;
+        padding-right:0.4rem;
+    }
+    
+    .mision__titulo2{
+        font-size: 1.5rem;
     }
 }
