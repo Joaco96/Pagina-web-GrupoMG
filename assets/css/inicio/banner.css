@@ -74,3 +74,110 @@
     font-size: 2.18rem;
     padding-top: 1.4%;
 }
+
+@media screen and (max-width:1550px) {
+    .banner{
+        padding: 210px 0 0 0;
+        height:38rem;
+    }
+
+    .banner__contenido{
+        height: 60%;
+    } 
+
+    .banner__logo{
+        width:14rem;
+    }
+
+    .banner__titulo1{
+        font-size: 4.4rem;
+    }
+    
+    .banner__titulo2{
+        font-size: 3.3rem;
+        padding-left: 2%;
+    }
+    
+    .banner__titulo3{
+        font-size: 5.3rem;
+    }
+
+    .banner__texto{
+        font-size: 1.8rem;
+    }
+}
+
+@media screen and (max-width:1250px) {
+    .banner{
+        padding: 210px 0 0 0;
+        height:35rem;
+    }
+
+    .banner__contenido{
+        height: 60%;
+    } 
+
+    .banner__logo{
+        width:12rem;
+    }
+
+    .banner__titulo1{
+        font-size: 4rem;
+    }
+    
+    .banner__titulo2{
+        font-size: 3rem;
+        padding-left: 2%;
+    }
+    
+    .banner__titulo3{
+        font-size: 5rem;
+    }
+
+    .banner__texto{
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .banner{
+        padding: 210px 0 0 0;
+        height:35rem;
+    }
+
+    .banner__contenido{
+        width: 80%;
+        height: 60%;
+        margin: 0 0 0 7%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .banner{
+        padding: 150px 0 0 0;
+        height:40rem;
+    }
+
+    .banner__superior{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .banner__contenido{
+        width: 80%;
+        height: 80%;
+    }
+
+    .banner__segundo{
+        padding-top: 0;
+    }
+
+    .banner__tercero{
+        padding-top: 2.5rem;
+    }
+
+    .banner__titulo3{
+        padding-bottom: 3rem;
+    }
+}

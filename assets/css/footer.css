@@ -13,30 +13,31 @@
     border-bottom: 2px solid;
     border-color:var(--azul2);
     align-items: center;
+    padding: 1.5rem 0;
 }
 
 .footer__logo{
-    width: 12rem;
+    width: 8rem;
 }
 
 .footer__lista{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    height:228px;
+    height: 8rem;
     padding-left:7rem;
 }
 
 .footer-menu__lista{
     display: flex;
     flex-direction: column;
-    height: 228px;
+    height: 8rem;
     justify-content: space-around;
 }
 
 .footer-menu__item, .footer__item{
     color: white;
-    font-size: 1.3rem;
+    font-size: 1rem;
     font-weight: 500;
 }
 
@@ -57,4 +58,27 @@
 
 .footer__link:hover{
     color: var(--gris1)
+}
+
+@media screen and (max-width:1024px) {
+    .footer-menu__item, .footer__item{
+        font-size: 0.8rem;
+    }
+
+    .footer__texto{
+        font-size: 0.8rem;
+    }
+
+    .footer__logo{
+        width: 6rem;
+    }
+
+    .footer__lista{
+        height: 6rem;
+        padding-left:3rem;
+    }
+    
+    .footer-menu__lista{
+        height: 6rem;        
+    }
 }

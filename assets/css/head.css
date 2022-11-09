@@ -3,7 +3,7 @@
     z-index: 10;
     width:75px;
     top: calc(100vh - 100px);
-    left: calc(100vw - 110px);
+    left: calc(100vw - 100px);
 }
 
 .head__wp:hover{
@@ -21,63 +21,68 @@
     z-index: 6;
     background-color: white;
     position: fixed;
-    top: 0;left: 0;
+    top: 0;
+    left: 0;
     box-shadow: 0 1px 10px #9b9b9b;
 }
 
 .head__burguer{
     display: none;
 }
+
+.icon-menu:before{
+    cursor: pointer;
+    color: var(--azul3);
+}
+
 #menu-bar:checked ~ .head__container-menu .head__cont-menu{
 	transform: translateX(0%);
 }
+
 #menu-bar:checked ~ .head__container-menu{
 	opacity: 1;
 	visibility: visible;
 }
+
 #menu-bar{
     display: none;
 }
+
 .head__logo {
-    width: 5rem;
+    width: 4.2rem;
     padding: 0.5rem 0 0.5rem 1.5rem;
 }
 
 .head__menu{
-    width: 40%;
-    
+    width: 35%;    
 }
 
 .head__lista{
     display:flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    height:5rem;
+    height:4rem;
     align-items: center;
 }
 
 .head__item{
     font-family: var(--inter);
     font-weight:500;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     color: var(--azul2);
 }
 
 .head__burguer .menu-bar{
-    float: left;
+    float: right;
 	line-height: 70px;
 }
-.icon-menu:before {
-    content: '\f0c9';
-    color: #2b0505;
-    font-size: 25px;
-    cursor: pointer;
-}
+
 .head__item:hover {
     color: var(--azul1);
     transform: scale(1.06);
     transition: 0.4s;
 }
+
 .head__container-menu{
     z-index: 10;
 	position: fixed;
@@ -88,6 +93,8 @@
 	transition: all 500ms ease;
 	opacity: 0;
 	visibility: hidden;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .head__cont-menu{
@@ -97,11 +104,13 @@
 	height: 100vh;
 	position: relative;
 	transition: all 500ms ease;
-	transform: translateX(-100%);
+	transform: translateX(100%);
 }
+
 .head__cont-menu nav{
 	transform: translateY(40%);
 }
+
 .head__cont-menu nav a{
 	display: block;
 	text-decoration: none;
@@ -110,15 +119,45 @@
 	border-left: 5px solid transparent;
 	transition: all 400ms ease;
 }
+
 .head__cont-menu nav a:hover{
 	border-left: 5px solid #c7c7c7;
-	background: #1f1f1f;
+	background: #4d4d4d;
 }
+
 .head__cont-menu label{
 	position: absolute;
-	right: 5px;
-	top: 10px;
+	right: 13rem;
+	top: 1.5rem;
 	color: #fff;
 	cursor: pointer;
 	font-size: 18px;
+}
+
+@media screen and (max-width:1420px) {
+    .head__menu{
+        width: 45%;    
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .head__burguer{
+        display: block;
+    }
+
+    .head__menu{
+        display: none;   
+    }
+
+    .head__logo {
+        padding: 0.5rem 0 0.5rem 38.3vw;
+    }
+
+    .head__wp{
+        position: fixed;
+        z-index: 10;
+        width:60px;
+        top: calc(100vh - 70px);
+        left: calc(100vw - 70px);
+    }
 }

@@ -1,39 +1,108 @@
 .mision{
     padding: 7rem 0 0 0;
     display:flex;
-
+    justify-content: space-between;
 }
 
 .mision__img{
-    padding-right:2rem;
     width:50%;
 }
 
 .mision__contenido{
-    padding-left: 2rem;
-    padding-bottom: 3rem;
+    width:50%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .mision__primero{
     display:flex;
-    padding-top:3.5rem;
+    justify-content:baseline;
+    width:68%;
 }
 
 .mision__titulo1{
     color: var(--gris2);
-    font-size: 3.2rem;
+    font-size: 2.5rem;
     padding-right:1rem;
 }
 
 .mision__titulo2{
     color: var(--azul3);
-    font-size: 3.2rem;
+    font-size: 2.5rem;
 }
 
 .mision__texto{
-    width:33rem;
+    width:68%;
     color: var(--gris2);
-    font-size: 2rem;
-    line-height: 3rem;
-    padding-top:2rem;
+    font-weight: 300;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    padding-top:0.5rem;
+}
+
+@media screen and (max-width:1325px) {
+    .mision__texto{
+        font-size: 1.2rem;
+        line-height: 2rem;
+        padding-top:0.5rem;
+    }
+}
+
+@media screen and (max-width:1250px) {
+    .mision{
+        padding: 5rem 0 0 0;
+    }
+
+    .mision__titulo1{
+        font-size: 2rem;
+    }
+    
+    .mision__titulo2{
+        font-size: 2rem;
+    }
+
+}
+
+@media screen and (max-width:1060px) {
+    .mision__texto{
+        padding-top:0;
+        line-height: 1.8rem;
+    }
+
+    .mision__titulo1{
+        padding-bottom: 0.5rem;
+    }
+    
+    .mision__titulo2{
+        padding-bottom: 0.5rem;
+    }
+
+}
+
+@media screen and (max-width:950px) {
+    .mision{
+        display:flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding-bottom: 4rem;
+    }
+
+    .mision__img{
+        width:80%;
+    }
+    
+    .mision__contenido{
+        width:80%;
+        align-items: flex-end;
+        padding-top: 2rem;
+    }
+
+    .mision__primero{
+        justify-content:flex-end;
+    }
+    .mision__texto{
+        text-align: end;
+    }
 }
