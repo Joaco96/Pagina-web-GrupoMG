@@ -6,6 +6,8 @@
 
 .formularios-post__primero{
     display: flex;
+    flex-direction: column;
+    align-items: center;
     padding-bottom: 2rem;
 }
 
