@@ -10,4 +10,3 @@ document.addEventListener("DOMContentLoaded", ()=>{
         noWrap: false,
     });
 });
-

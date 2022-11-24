@@ -1,23 +1,119 @@
 .trabajos{
     background-color: rgba(228, 228, 228, 0.7);
-    padding-bottom: 3rem;
+    padding-bottom: 5rem;
+    padding-top: 2rem;
 }
 
 .trabajos__primero{
     display:flex;
-    padding-top:3rem;
+    padding-top:2rem;
     justify-content: center;
+    padding-bottom: 1rem;
 }
 
 .trabajos__titulo1{
     color: var(--gris2);
-    font-size: 3.2rem;
+    font-size: 2rem;
     padding-right:1rem;
     padding-bottom: 0%;
 }
 
 .trabajos__titulo2{
     color: var(--azul3);
-    font-size: 3.2rem;
+    font-size: 2rem;
     padding-bottom: 0%;
+}
+
+/* Estilos de Materialze para el Carousel */
+
+.carousel .carousel-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    width: 500px;
+    height: 320px;
+}
+
+.carousel .carousel-item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 8px;
+}
+
+.carousel .indicators .indicator-item{
+    border-radius: 0;    
+    margin:0 15px;
+    background: var(--gris1);
+}
+
+@media screen and (max-width:1024px) {
+    .carousel{
+        height: 320px;
+    }
+    
+    .carousel .carousel-item{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        user-select: none;
+        width: 300px;
+        height: 250px;
+    }
+    .trabajos{
+        padding-bottom: 3rem;
+        padding-top: 1rem;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .carousel{
+        height: 250px;
+        align-items: center;
+    }
+    
+    .carousel .carousel-item{
+        padding-bottom: 1rem;
+        width: 200px;
+        height: 150px;
+    }
+    .trabajos{
+        padding-bottom: 3rem;
+        padding-top: 1rem;
+    }
+    .trabajos__primero{
+        padding-bottom: 0;
+    }
+
+    .indicators{
+        padding-top: 1rem;
+    }
+    .carousel .indicators .indicator-item{
+        margin:0 8px;
+    }
+    .trabajos__titulo1{
+        font-size: 1.7rem;
+        padding-right:0.4rem;
+    }
+    
+    .trabajos__titulo2{
+        font-size: 1.7rem;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .trabajos__titulo1{
+        font-size: 1.5rem;
+    }
+    
+    .trabajos__titulo2{
+        font-size: 1.5rem;
+    }
 }

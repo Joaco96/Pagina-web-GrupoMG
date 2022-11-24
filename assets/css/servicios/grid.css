@@ -45,6 +45,22 @@
     }
 }
 
+@media screen and (max-width:520px) {
+    .grids__contenido{
+        padding-top: 1rem;
+    }
+    .grid__titulo{
+        font-size: 0.8rem;
+        line-height: 1.3rem;
+    }
+    .grid{
+        height: 3rem;
+    }
+    .grids{
+        padding-bottom: 3.5rem;
+    }
+}
+
 @media screen and (min-width:600px) {
     .grid{
         width: 40%;

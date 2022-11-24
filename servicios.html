@@ -1,14 +1,24 @@
 <!DOCTYPE html>
 <html lang="es">
     <head>
+        <!-- Etiquetas Meta y Titulo -->
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Somos un Grupo dedicado a brindar soluciones en Capital Humano Integrando personas con Organizaciones. A través de personal calificado y con el objetivo de optimizar costos y la calidad de los procesos, brindamos soluciones." />
+        <meta name="robots" content="index,follow" />
+        <meta name="google" content="nositelinkssearchbox" />
         <title>Grupo MG</title>
-        <link rel="icon" type="image/png" href="#">
+
+        <!-- Favicon -->
+        <link rel="icon" type="image/png" href="assets/img/grupo MG.png">
+
+        <!-- Fuentes -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+        <!-- Estilos CSS -->
         <link href="assets/css/normalize.css" rel="stylesheet"/>
         <link href="assets/css/reset.css" rel="stylesheet"/>
         <link href="assets/css/bases.css" rel="stylesheet"/>
@@ -18,21 +28,37 @@
         <link href="assets/css/servicios/descripcion.css" rel="stylesheet"/>
         <link href="assets/css/servicios/grid.css" rel="stylesheet"/>
         <link href="assets/css/footer.css" rel="stylesheet"/>
+        <link href="assets/css/fontello.css" rel="stylesheet"/>
     </head>
     <body>
         <a class="head__link" target="_blank" href="https://wa.me/5491148066281"><img class="head__wp" src="assets/img/whatsapp.png" alt="Logo Grupo MG"></a>
         <header class="head container">
             <img class="head__logo" src="assets/img/a- Imagotipo Grupo MG.png" alt="Logo Grupo MG">
-            <nav class="head__menu">
+                <div class="head__burguer">
+                    <label class="icon-menu" for="menu-bar"></label>
+                </div>
+                <nav class="head__menu">
                 <ul class="head__lista">
                     <li class="head__item"><a class="head__link" href="index.html">Inicio</a></li>
-                    <li class="head__item"><a class="head__link" href="#inicio">Servicios</a></li>
+                    <li class="head__item"><a class="head__link" href="servicios.html">Servicios</a></li>
                     <li class="head__item"><a class="head__link" href="postularme.html">Postularme</a></li>
                     <li class="head__item"><a class="head__link" href="contacto.html">Contacto</a></li>
                 </ul>
             </nav>
         </header>
         <main>
+            <input type="checkbox" id="menu-bar">
+            <div class="head__container-menu">
+            <div class="head__cont-menu">
+                <nav>
+                    <a href="index.html">Inicio</a>
+                    <a href="servicios.html">Servicios</a>
+                    <a href="postularme.html">Postularme</a>
+                    <a href="contacto.html">Contacto</a>
+                </nav>
+                <label for="menu-bar" class="icon-equis"></label>
+            </div>
+            </div>
             <section class="background container" id="inicio">
                 <div class="background__contenido">
                     <div class="background__superior">
@@ -75,47 +101,50 @@
                         <h3 class="descripcion__titulo1 titulo">ADMINISTRACIÓN</h3>
                         <h3 class="descripcion__titulo2 titulo">de Nomina</h3>
                     </div>
-                    <p class="descripcion__p">Proceso de Administración y Liquidación de sueldos.</p>
+                    <p class="descripcion__p c1">El outsourcing o tercerización de la Liquidación de Haberes, le permitirá a usted focalizar a la competencia esencial de su negocio alcanzando una mayor eficiencia empresarial, permitiéndole convertir gastos fijos y variable en “controlables”.</p>
+                    <p class="descripcion__p c2">De este modo logrará mejorar la gestión por medio de tecnología de punta y dirigir sus recursos en las áreas estratégicas, centrales y propias de su organización, delegando las tareas inherentes a la liquidación de sueldos en nuestro equipo de profesionales especialistas. Así, podrá despreocuparse del mantenimiento y gestión del software y de los constantes y permanentes cambios de la compleja legislación laboral.</p>
+                    <p class="descripcion__p c3">Obtenga la seguridad, economía y eficiencia en el tratamiento de la Liquidación de Haberes que le proporciona Grupo MG.  Más de veinte años de experiencia en el mercado avalan nuestra trayectoria.</p>
                 </div>
                 <div class="descripcion__contenido ter" id="ter">
                     <div class="descripcion__primero">
                         <h3 class="descripcion__titulo1 titulo">TERCIARIZACIÓN</h3>
                         <h3 class="descripcion__titulo2 titulo">de Servicios</h3>
                     </div>
-                    <p class="descripcion__p" class="descripcion__titulo3">Contamos con Profesionales altamente capacitados. Extensa base de datos para cubrir posiciones que aplican a diferentes C.C.T.</p>
-                    <h3 class="desciprcion__h3 titulo">ASPECTOS RELEVANTES</h3>
-                    <ul class="desciprcion__lista">
-                        <li class="desciprcion__item"><span><img class="descripcion__img" src="assets/img/servicios/cheuron.png"></span>Total relación de dependencia con Grupo MG.</li>
-                        <li class="desciprcion__item"><span><img class="descripcion__img" src="assets/img/servicios/cheuron.png"></span>Sistema dinámico, sin carga administrativa para empresa cliente.</li>
-                        <li class="desciprcion__item"><span><img class="descripcion__img" src="assets/img/servicios/cheuron.png"></span>Reducción de costos y tiempo a través de procesos productivos más eficientes.</li>
-                        <li class="desciprcion__item"><span><img class="descripcion__img" src="assets/img/servicios/cheuron.png"></span>Soluciones a picos estacionales.</li>
-                        <li class="desciprcion__item"><span><img class="descripcion__img" src="assets/img/servicios/cheuron.png"></span>Posibilidad de incorporar sin costo adicional despues de los 90 días de contratación.</li>
+                    <p class="descripcion__p descripcion__titulo3 alt2">Contamos con Profesionales altamente capacitados. Extensa base de datos para cubrir posiciones que aplican a diferentes C.C.T.</p>
+                    <h3 class="descripcion__h3 titulo">ASPECTOS RELEVANTES</h3>
+                    <ul class="descripcion__lista">
+                        <li class="descripcion__item"><span><img class="descripcion__img" src="assets/img/servicios/cheuron.png"></span>Total relación de dependencia con Grupo MG.</li>
+                        <li class="descripcion__item"><span><img class="descripcion__img" src="assets/img/servicios/cheuron.png"></span>Sistema dinámico, sin carga administrativa para empresa cliente.</li>
+                        <li class="descripcion__item"><span><img class="descripcion__img" src="assets/img/servicios/cheuron.png"></span>Reducción de costos y tiempo a través de procesos productivos más eficientes.</li>
+                        <li class="descripcion__item"><span><img class="descripcion__img" src="assets/img/servicios/cheuron.png"></span>Soluciones a picos estacionales.</li>
+                        <li class="descripcion__item"><span><img class="descripcion__img" src="assets/img/servicios/cheuron.png"></span>Posibilidad de incorporar sin costo adicional despues de los 90 días de contratación.</li>
                     </ul>
                 </div>
                 <div class="descripcion__contenido cons" id="cons">
-                    <div class="descripcion__primero">
-                        <h3 class="descripcion__titulo1 titulo">CONSULTORÍA / BÚSQUEDA Y SELECCIÓN</h3>
-                        <h3 class="descripcion__titulo2 titulo">de Personal</h3>
+                    <div class="descripcion__primero-2">
+                        <h3 class="descripcion__titulo1 titulo alt">CONSULTORÍA / BÚSQUEDA Y SELECCIÓN</h3>
+                        <h3 class="descripcion__titulo2 titulo alt">de Personal</h3>
                     </div>
-                    <p class="descripcion__p">Logramos una seleccion eficaz del personal considerando :</p>
+                    <p class="descripcion__p alt2">Logramos una seleccion eficaz del personal considerando :</p>
                     <ul class="desciprcion__lista">
-                        <li class="desciprcion__item"><span><img class="descripcion__img" src="assets/img/servicios/cheuron.png"></span>Los requerimientos del puesto a cubrir.</li>
-                        <li class="desciprcion__item"><span><img class="descripcion__img" src="assets/img/servicios/cheuron.png"></span>Las cualidades técnicas/humanas y de desarrollo del posible colaborador en relación a la impronta de la empresa.</li>
+                        <li class="descripcion__item"><span><img class="descripcion__img" src="assets/img/servicios/cheuron.png"></span>Los requerimientos del puesto a cubrir.</li>
+                        <li class="descripcion__item"><span><img class="descripcion__img" src="assets/img/servicios/cheuron.png"></span>Las cualidades técnicas/humanas y de desarrollo del posible colaborador en relación a la impronta de la empresa.</li>
                     </ul>
                     <p class="descripcion__cargo">Búsqueda a cargo de profesionales.</p>
-                    <ul class="desciprcion__lista">
-                        <li class="desciprcion__item"><span><img class="descripcion__img" src="assets/img/servicios/cheuron.png"></span>Batería de test adaptadas a las competencias requeridas para el puesto.</li>
-                        <li class="desciprcion__item"><span><img class="descripcion__img" src="assets/img/servicios/cheuron.png"></span>Informe individual de los postulantes.</li>
-                        <li class="desciprcion__item"><span><img class="descripcion__img" src="assets/img/servicios/cheuron.png"></span>Verificación de antecedentes laborales.</li>
+                    <ul class="descripcion__lista">
+                        <li class="descripcion__item"><span><img class="descripcion__img" src="assets/img/servicios/cheuron.png"></span>Batería de test adaptadas a las competencias requeridas para el puesto.</li>
+                        <li class="descripcion__item"><span><img class="descripcion__img" src="assets/img/servicios/cheuron.png"></span>Informe individual de los postulantes.</li>
+                        <li class="descripcion__item"><span><img class="descripcion__img" src="assets/img/servicios/cheuron.png"></span>Verificación de antecedentes laborales.</li>
                     </ul>
-                    <h3 class="desciprcion__h3-2 titulo">PROFESIONALES DE PUESTOS JERARQUICOS, PERSONAL OPERATIVO DE AREAS ADMINISTRATIVAS Y PRODUCTIVAS</h3>
+                    <h3 class="descripcion__h3-2 titulo">PROFESIONALES DE PUESTOS JERARQUICOS, PERSONAL OPERATIVO DE AREAS ADMINISTRATIVAS Y PRODUCTIVAS</h3>
                 </div>
             </section>
             <section class="grids container " id="out">
                 <div class="descripcion__primero">
                     <h3 class="descripcion__titulo1 titulo">OUTSOURCING</h3>
-                    <h3 class="descripcion__titulo2 titulo">de Procesos</h3>
+                    <h3 class="descripcion__titulo2 titulo">de Procesos</h3>                    
                 </div>
+                <p class="descripcion__p c4">Inside <> Outside</p>
                 <div class="grids__contenido">                            
                     <div class="grid">                     
                         <div class="grid__contenido">
@@ -192,7 +221,7 @@
                         <li class="footer__item">+54 11 4806 6281</li>
                     </ul>
                 </div>
-                <iframe class="footer__map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2761.3187883231435!2d-58.38707501401372!3d-34.60972549498403!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccadadcafb34b%3A0x98eafb3e5c187a51!2sAv.%20de%20Mayo%201324%2C%20C1085ABQ%20CABA!5e0!3m2!1ses-419!2sar!4v1667337352314!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <!-- <iframe class="footer__map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2761.3187883231435!2d-58.38707501401372!3d-34.60972549498403!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccadadcafb34b%3A0x98eafb3e5c187a51!2sAv.%20de%20Mayo%201324%2C%20C1085ABQ%20CABA!5e0!3m2!1ses-419!2sar!4v1667337352314!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
                 <nav class="footer-menu">
                     <ul class="footer-menu__lista">
                         <li class="footer-menu__item"><a class="footer-menu__link" href="index.html">Inicio</a></li>

@@ -1,14 +1,24 @@
 <!DOCTYPE html>
 <html lang="es">
     <head>
+        <!-- Etiquetas Meta y Titulo -->
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Somos un Grupo dedicado a brindar soluciones en Capital Humano Integrando personas con Organizaciones. A través de personal calificado y con el objetivo de optimizar costos y la calidad de los procesos, brindamos soluciones." />
+        <meta name="robots" content="index,follow" />
+        <meta name="google" content="nositelinkssearchbox" />
         <title>Grupo MG</title>
-        <link rel="icon" type="image/png" href="#">
+
+        <!-- Favicon -->
+        <link rel="icon" type="image/png" href="assets/img/grupo MG.png">
+
+        <!-- Fuentes -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+        <!-- Estilos CSS -->
         <link href="assets/css/normalize.css" rel="stylesheet"/>
         <link href="assets/css/reset.css" rel="stylesheet"/>
         <link href="assets/css/bases.css" rel="stylesheet"/>
@@ -16,25 +26,41 @@
         <link href="assets/css/servicios/background.css" rel="stylesheet"/>
         <link href="assets/css/formularios.css" rel="stylesheet"/>
         <link href="assets/css/footer.css" rel="stylesheet"/>
+        <link href="assets/css/fontello.css" rel="stylesheet"/>
     </head>
     <body>
         <a class="head__link" target="_blank" href="https://wa.me/5491148066281"><img class="head__wp" src="assets/img/whatsapp.png" alt="Logo Grupo MG"></a>
         <header class="head container">
             <img class="head__logo" src="assets/img/a- Imagotipo Grupo MG.png" alt="Logo Grupo MG">
-            <nav class="head__menu">
+                <div class="head__burguer">
+                    <label class="icon-menu" for="menu-bar"></label>
+                </div>
+                <nav class="head__menu">
                 <ul class="head__lista">
                     <li class="head__item"><a class="head__link" href="index.html">Inicio</a></li>
                     <li class="head__item"><a class="head__link" href="servicios.html">Servicios</a></li>
                     <li class="head__item"><a class="head__link" href="postularme.html">Postularme</a></li>
-                    <li class="head__item"><a class="head__link" href="#inicio">Contacto</a></li>
+                    <li class="head__item"><a class="head__link" href="contacto.html">Contacto</a></li>
                 </ul>
             </nav>
         </header>
         <main>
+            <input type="checkbox" id="menu-bar">
+            <div class="head__container-menu">
+            <div class="head__cont-menu">
+                <nav>
+                    <a href="index.html">Inicio</a>
+                    <a href="servicios.html">Servicios</a>
+                    <a href="postularme.html">Postularme</a>
+                    <a href="contacto.html">Contacto</a>
+                </nav>
+                <label for="menu-bar" class="icon-equis"></label>
+            </div>
+            </div>
             <section class="background container" id="inicio">
                 <div class="background__contenido">
                     <div class="background__superior">
-                        <h2 class="background__titulo titulo">Contactanos</h2>
+                        <h2 class="background__titulo titulo alt2">Contactanos</h2>
                     </div>              
                 </div>
             </section>
@@ -85,7 +111,7 @@
                         <li class="footer__item">+54 11 4806 6281</li>
                     </ul>
                 </div>
-                <iframe class="footer__map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2761.3187883231435!2d-58.38707501401372!3d-34.60972549498403!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccadadcafb34b%3A0x98eafb3e5c187a51!2sAv.%20de%20Mayo%201324%2C%20C1085ABQ%20CABA!5e0!3m2!1ses-419!2sar!4v1667337352314!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <!-- <iframe class="footer__map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2761.3187883231435!2d-58.38707501401372!3d-34.60972549498403!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccadadcafb34b%3A0x98eafb3e5c187a51!2sAv.%20de%20Mayo%201324%2C%20C1085ABQ%20CABA!5e0!3m2!1ses-419!2sar!4v1667337352314!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
                 <nav class="footer-menu">
                     <ul class="footer-menu__lista">
                         <li class="footer-menu__item"><a class="footer-menu__link" href="index.html">Inicio</a></li>

@@ -1,7 +1,7 @@
 .background{
     padding:0;
     position:relative;
-    height:40rem;
+    height:35rem;
     width:100%;
 }
 
@@ -10,7 +10,7 @@
     background-image: url(../../img/Background3.jpg);
     background-size: cover;
     background-position: center;
-    top:5rem;
+    top:4rem;
     bottom:0;
     left:0;
     right: 0;
@@ -19,11 +19,54 @@
 }
 
 .background__superior{
-    padding: 30rem 0 0 18rem;
+    padding: 23rem 0 0 25vw;
 }
 
 .background__titulo{
-    font-size: 7rem;
-    font-weight: 600;
+    font-size: 6rem;
+    font-weight: 500;
     padding: 0;
+}
+
+@media screen and (max-width:768px) {
+    .background{
+        height:24rem;
+    }
+    
+    .background::after{
+        top:1rem;
+    }
+
+    .background__superior{
+        padding: 32vh 0 0 20vw;
+    }
+
+    .background__titulo{
+        font-size: 4rem;
+        width:300px;
+    }
+}
+
+@media screen and (max-width:445px) {
+    .background{
+        height:22.5rem;
+    }
+    .background__superior{
+        padding: 32vh 0 0 12vw;
+    }
+    .background__titulo{
+        font-size: 3.5rem;
+        width:250px;
+    }
+}
+
+@media screen and (max-width:445px) {
+    .background__titulo.alt{
+        font-size: 2.8rem;
+        width:250px;
+    }
+    .background__titulo.alt2{
+        font-size: 2.6rem;
+        width:250px;
+    }
 }
