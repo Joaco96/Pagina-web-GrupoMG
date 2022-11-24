@@ -69,34 +69,40 @@
                     <h2 class="formularios-post__titulo1 titulo">Formulario de</h2>
                     <h2 class="formularios-post__titulo2 titulo">Contacto</h2>
                 </div>
-                <form class="formularios-post__contenido" action="enviar.php" method="get">
+                <form class="formularios-post__contenido" id="form"action="https://formsubmit.co/bed7c99fe91f119e789a9c63f245731a" method="POST" enctype="multipart/form-data">
                     <div class="formulario-post__contenido">
                         <label for="nombreid" class="label">Nombre</label>
-                        <input class="input" type="text" name="nombre" id="nombreid" required>
+                        <input class="input" type="text" name="Nombre" id="nombreid" required>
                     </div>
                     <div class="formulario-post__contenido">
                         <label for="apellido" class="label">Apellido</label>
-                        <input class="input" type="text" name="apellido" id="apellido">
+                        <input class="input" type="text" name="Apellido" id="apellido">
                     </div>
                     <div class="formulario-post__contenido">
                         <label for="email" class="label">Email</label>
-                        <input class="input" type="email" name="email" id="email">
+                        <input class="input" type="email" name="Email" id="email">
                     </div>
                     <div class="formulario-post__contenido">
                         <label for="tel" class="label">Telefono:</label>
-                        <input class="input" type="tel" name="tel" id="tel">
+                        <input class="input" type="tel" name="Telefono" id="tel">
                     </div>
                     <div class="formulario-post__contenido">
                         <label for="empresa" class="label">Empresa</label>
-                        <input class="input" type="text" name="empresa" id="empresa">
+                        <input class="input" type="text" name="Empresa" id="empresa">
                     </div>
                     <div class="formulario-post__contenido">
                         <label for="comentario" class="label">Mensaje</label>
-                        <textarea class="input mensaje" id="comentario" name="comentario"></textarea>
+                        <textarea class="input mensaje" id="Mensaje" name="mensaje"></textarea>
                     </div>
                     <div class="formularios__botones">
                         <button class="formularios__boton boton" type="submit">Enviar</button>
                     </div>
+                    <input type="hidden" name="_subject" value="Nuevo Mensaje! Grupo MG">
+                    <input type="text" name="_honey" style="display:none">
+                    <input type="hidden" name="_template" value="box">
+                    <input type="hidden" name="_replyto">
+                    <input type="hidden" name="_next" value="https://www.grupomg.com/index.html">
+                    <input type="hidden" name="_captcha" value="false">
                 </form>
             </section>
         </main>

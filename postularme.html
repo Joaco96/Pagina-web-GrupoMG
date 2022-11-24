@@ -69,54 +69,60 @@
                     <h2 class="formularios-post__titulo1 titulo">Formulario de</h2>
                     <h2 class="formularios-post__titulo2 titulo">Registro</h2>
                 </div>
-                <form class="formularios-post__contenido" action="enviar.php" method="get">
+                <form class="formularios-post__contenido" id="form"action="https://formsubmit.co/bed7c99fe91f119e789a9c63f245731a" method="POST" enctype="multipart/form-data">
                     <div class="formulario-post__contenido">
                         <label for="nombreid" class="label">Nombre</label>
-                        <input class="input" type="text" name="nombre" id="nombreid" required>
+                        <input class="input" type="text" name="Nombre" id="Nombre" required>
                     </div>
                     <div class="formulario-post__contenido">
                         <label for="apellido" class="label">Apellido</label>
-                        <input class="input" type="text" name="apellido" id="apellido">
+                        <input class="input" type="text" name="Apellido" id="Apellido">
                     </div>
                     <div class="formulario-post__contenido">
                         <label for="email" class="label">Email</label>
-                        <input class="input" type="email" name="email" id="email">
+                        <input class="input" type="email" name="Email" id="Email">
                     </div>
                     <div class="formulario-post__contenido">
                         <label for="tel" class="label">Telefono:</label>
-                        <input class="input" type="tel" name="tel" id="tel">
-                    </div>
-                    <div class="formulario-post__contenido">
-                        <label for="provincia" class="label">Provincia</label>
-                        <input class="input" type="text" name="provincia" id="provincia">
-                    </div>
-                    <div class="formulario-post__contenido">
-                        <label for="localidad" class="label">Localidad</label>
-                        <input class="input" type="text" name="localidad" id="localidad">
+                        <input class="input" type="tel" name="Telefono" id="Telefono">
                     </div>
                     <div class="formulario-post__contenido">
                         <label for="domicilio" class="label">Domicilio</label>
-                        <input class="input" type="text" name="domicilio" id="domicilio">
+                        <input class="input" type="text" name="Domicilio" id="Domicilio">
+                    </div>
+                    <div class="formulario-post__contenido">
+                        <label for="localidad" class="label">Localidad</label>
+                        <input class="input" type="text" name="Localidad" id="Localidad">
+                    </div>
+                    <div class="formulario-post__contenido">
+                        <label for="provincia" class="label">Provincia</label>
+                        <input class="input" type="text" name="Provincia" id="Provincia">
                     </div>
                     <div class="formulario-post__contenido">
                         <label for="cuil" class="label">CUIL</label>
-                        <input class="input" type="number" name="cuil" id="cuil">
+                        <input class="input" type="number" name="CUIL" id="CUIL">
                     </div>
                     <div class="formulario-post__contenido">
                         <label for="fecha" class="label">Fecha</label>          
-                        <input class="input" type="date" name="fecha" id="fecha">
+                        <input class="input" type="date" name="Fecha" id="Fecha">
                     </div>
                     <div class="formulario-post__contenido">
                         <label for="asunto" class="label">Puesto de Interes</label>
-                        <textarea class="input" id="asunto" name="comentario"></textarea>
+                        <textarea class="input" id="Puesto de Interés" name="Puesto de Interés"></textarea>
                     </div>
                     <div class="formulario-post__contenido">
                         <label for="cv" class="label">CV (formato PDF)</label>
-                        <input required type="file" accept=".pdf" class="input pdf" id="cv" name="cv">
+                        <input required type="file" accept=".pdf" class="input pdf" id="Curriculum Adjunto" name="Curriculum Adjunto">
                     </div>
                     <div class="formularios__botones">
                         <button class="formularios__boton boton" type="submit">Enviar</button>
                     </div>
+                    <input type="hidden" name="_subject" value="Nuevo Curriculum! Grupo MG">
+                    <input type="text" name="_honey" style="display:none">
+                    <input type="hidden" name="_template" value="box">
+                    <input type="hidden" name="_replyto">
+                    <input type="hidden" name="_next" value="https://www.grupomg.com/index.html">
+                    <input type="hidden" name="_captcha" value="false">
                 </form>
             </section>
         </main>

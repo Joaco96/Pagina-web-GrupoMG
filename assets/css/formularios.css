@@ -72,6 +72,10 @@ div:focus-within label {
     height:8rem;
 }
 
+#trucazo{
+    opacity:0;
+}
+
 @media screen and (max-width:770px) {
     .formularios-post{
         margin: 1rem 5vw 4rem 5vw;
@@ -101,3 +105,4 @@ div:focus-within label {
         font-size: 1.5rem;
     }
 }
+
