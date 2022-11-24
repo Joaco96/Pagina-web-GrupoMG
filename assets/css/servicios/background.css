@@ -28,7 +28,7 @@
     padding: 0;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:900px) {
     .background{
         height:24rem;
     }
@@ -47,7 +47,7 @@
     }
 }
 
-@media screen and (max-width:445px) {
+@media screen and (max-width:550px) {
     .background{
         height:22.5rem;
     }
@@ -56,11 +56,8 @@
     }
     .background__titulo{
         font-size: 3.5rem;
-        width:250px;
+        width:250px;        
     }
-}
-
-@media screen and (max-width:445px) {
     .background__titulo.alt{
         font-size: 2.8rem;
         width:250px;

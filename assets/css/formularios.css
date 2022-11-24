@@ -76,7 +76,7 @@ div:focus-within label {
     opacity:0;
 }
 
-@media screen and (max-width:770px) {
+@media screen and (max-width:800px) {
     .formularios-post{
         margin: 1rem 5vw 4rem 5vw;
     }
